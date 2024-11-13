@@ -28,7 +28,7 @@ module.exports = {
   config: {
     name: 'autolink',
     version: '3.0',
-    author: '𝙈𝙖𝙭-𝙍𝙖𝙢𝙗𝙤-𝘽𝙤𝙩𝟯𝟮𝟬',
+    author: 'Vex_Kshitiz',
     countDown: 5,
     role: 0,
     shortDescription: 'Auto video downloader for Instagram, Facebook, TikTok, Twitter, pinterest and youtube',
@@ -106,7 +106,7 @@ module.exports = {
       }
 
       const shortUrl = await shortenURL(res);
-      const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           Your Baby \n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
+      const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           𝐘𝐨𝐮𝐫 𝐁𝐚𝐛𝐲\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
 
       api.sendMessage({
         body: messageBody,
@@ -132,7 +132,7 @@ module.exports = {
         response.data.pipe(fs.createWriteStream(path));
         response.data.on('end', async () => {
           const shortUrl = await shortenURL(videoUrl);
-          const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           Your Baby\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
+          const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           𝐘𝐨𝐮𝐫 𝐁𝐚𝐛𝐲\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
 
           api.sendMessage({
             body: messageBody,
@@ -160,7 +160,7 @@ module.exports = {
       }
 
       const shortUrl = await shortenURL(res);
-      const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           Your Baby\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
+      const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           𝐘𝐨𝐮𝐫 𝐁𝐚𝐛𝐲\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
 
       api.sendMessage({
         body: messageBody,
@@ -188,7 +188,7 @@ module.exports = {
       response.data.pipe(fs.createWriteStream(path));
       response.data.on('end', async () => {
         const shortUrl = await shortenURL(videoUrl);
-        const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           Your Baby\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
+        const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           𝐘𝐨𝐮𝐫 𝐁𝐚𝐛𝐲\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
 
         api.sendMessage({
           body: messageBody,
@@ -217,7 +217,7 @@ module.exports = {
       response.data.pipe(fs.createWriteStream(path));
       response.data.on('end', async () => {
         const shortUrl = await shortenURL(videoUrl);
-        const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           Your Baby\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
+        const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           𝐘𝐨𝐮𝐫 𝐁𝐚𝐛𝐲\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
 
         api.sendMessage({
           body: messageBody,
@@ -246,7 +246,7 @@ module.exports = {
       response.data.pipe(fs.createWriteStream(path));
       response.data.on('end', async () => {
         const shortUrl = await shortenURL(videoUrl);
-        const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           Your Baby\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
+        const messageBody = `╔════ஜ۩۞۩ஜ═══╗\n           𝐘𝐨𝐮𝐫 𝐁𝐚𝐛𝐲\n ╚════ஜ۩۞۩ஜ═══╝\n\n🔗𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚁𝚄𝙻: ${shortUrl}`;
 
         api.sendMessage({
           body: messageBody,
@@ -429,4 +429,4 @@ async function fbDownloader(url) {
       success: false
     };
   }
-                               }
+                                   }
